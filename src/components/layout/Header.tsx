@@ -54,6 +54,7 @@ export default function Header() {
                 alt="SRD Foundation"
                 width={240}
                 height={60}
+                unoptimized
                 className="logo-img h-11 sm:h-14 w-auto"
                 priority
               />

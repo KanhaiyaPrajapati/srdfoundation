@@ -33,6 +33,7 @@ export default function Footer() {
                   alt="SRD Foundation"
                   width={260}
                   height={65}
+                  unoptimized
                   className="logo-img h-14 w-auto"
                 />
               </div>
