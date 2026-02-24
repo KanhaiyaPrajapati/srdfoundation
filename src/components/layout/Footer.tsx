@@ -10,6 +10,7 @@ import {
   FaLinkedinIn,
   FaHeart,
 } from "react-icons/fa";
+import srdLogo from "../../../public/srdlogo.png";
 
 const socialIcons = [
   { icon: FaFacebookF, href: contactInfo.socialLinks.facebook, label: "Facebook" },
@@ -28,7 +29,7 @@ export default function Footer() {
             <Link href="/" className="inline-block mb-4">
               <div className="logo-blend">
                 <Image
-                  src="/srdlogo.png"
+                  src={srdLogo}
                   alt="SRD Foundation"
                   width={260}
                   height={65}
