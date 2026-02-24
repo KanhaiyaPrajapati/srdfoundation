@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd /c/srdfoundation/srdfoundation && npm install @reduxjs/toolkit react-redux framer-motion react-icons 2>&1)"
+    ]
+  }
+}
