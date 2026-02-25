@@ -10,7 +10,6 @@ import { toggleMobileMenu, closeMobileMenu, toggleTheme } from "@/store/slices/u
 import { navLinks } from "@/data/siteData";
 import { FaBars, FaTimes, FaSun, FaMoon } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
-import srdLogo from "../../../public/srdlogo.png";
 
 export default function Header() {
   const pathname = usePathname();
@@ -50,7 +49,7 @@ export default function Header() {
           >
             <div className={`logo-blend ${!scrolled ? "logo-blend--top" : ""}`}>
               <Image
-                src={srdLogo}
+                src="/srdlogo.png"
                 alt="SRD Foundation"
                 width={240}
                 height={60}
